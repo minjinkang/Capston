@@ -12,6 +12,7 @@ start-yarn.cmd
 
 ** FS쉘에는 HDFS와 직접 상호작용하여 다양한 명령과 Local FS, WebHDFS, S3 FS 등과 같은 hadoop이 지원하는 다른 파일 시스템이 포함되어 있다. 
 
+
 > hadoop fs 실습시작
 1. hadoop fs상에 디렉토리 생성  
    : C:\hadoop-3.3.2>hadoop fs -mkdir /user  
