@@ -39,10 +39,13 @@
         Flume agent
 1. target agent 실행
 <img src="../img/flumetarget실행.png" width="900" height=""></img>  
+<span style="color:#ffd33d">*flume-ng agent -n target_agent -c conf -f flume-log-target-agent.conf*</span>  
 2. source agent 실행
 <img src="../img/flumesource실행.png" width="900" height=""></img>  
 <img src="../img/flumesource실행오류.png" width="900" height=""></img>  
+<span style="color:#ffd33d">*flume-ng agent -n source_agent -c conf -f flume-log-source-agent.conf*</span>  
 <span style="color:#ffd33d">*source.conf 파일이 실행은 되지만 리눅스 tail -f 명령어는 윈도우 커맨드에서 사용이 불가하기때문에 오류가 생긴다// 해결방법을 찾지 못하였다.*</span>  
+
 
         실행결과
 <img src="../img/flumesource실행정상로그.png" width="900" height="400"></img>  
