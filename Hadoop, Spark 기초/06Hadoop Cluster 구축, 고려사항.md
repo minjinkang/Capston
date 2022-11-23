@@ -2,10 +2,10 @@
 
 ## Cluster란?
 - 여러대의 컴퓨터들이 연결되어 하나의 시스템처럼 동작하는 컴퓨터들의 집합
-<img src="img/클러스터%20동작.png" height="200px"></img>  
+<img src="../img/클러스터%20동작.png" height="200px"></img>  
 *worker : 작업을 수행하는 노드. 데이터를 처리하거나 조회, 검색서비스를 제공한다.*
 
-<img src="img/master%20worker%20architecture.png" height="200px"></img><img src="img/master%20worker%20architecture2.png" height="200px"></img>  
+<img src="../img/master%20worker%20architecture.png" height="200px"></img><img src="../img/master%20worker%20architecture2.png" height="200px"></img>  
 *특정 노드에 문제가 발생 되더라도 다른 서버가 처리할 수 있도록 지원한다.*
 
 >Cluster 규모 결정

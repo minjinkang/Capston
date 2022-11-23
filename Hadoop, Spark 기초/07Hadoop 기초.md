@@ -34,9 +34,9 @@
 
 > HDFS 구조(master/worker 구조)
 
-<img src="img/hdfs구조.png" height="200px"></img> 
+<img src="../img/hdfs구조.png" height="200px"></img> 
 
-<img src="img/namenode,datanode%20구조.png" height="200px"></img>  
+<img src="../img/namenode,datanode%20구조.png" height="200px"></img>  
 <span style="color:#ffdce0">*데이터노드 하나에 장애가 발생하여도 데이터를 읽을 수 있다.*</span>
 
 
@@ -59,7 +59,7 @@
 
 > HDFS의 읽기 연산
 > 
-<img src="img/hdfs%20읽기연산.png" height="200px"></img>  
+<img src="../img/hdfs%20읽기연산.png" height="200px"></img>  
 1. 파일이 보관된 블록의 위치를 요청한다.
 2. 블록이 어디에 있는지 클라이언트에게 반환한다.
 3. 파일블록을 요청한다.
@@ -67,7 +67,7 @@
 
 > HDFS의 쓰기 연산
 > 
-<img src="img/hdfs%20쓰기연산.png" height="200px"></img>  
+<img src="../img/hdfs%20쓰기연산.png" height="200px"></img>  
 1. 파일정보를 전송, 파일블록을 써야할 노드의 목록을 요청받는다.
 2. 데이터를 쓸 노드의 리스트를 클라이언트에게 전달한다.
 3. 파일쓰기를 요청한다.

@@ -2,7 +2,7 @@
 ## GenericOptionsParser
 - Hadoop job을 실행할 때 사용되는 옵션을 분석해서 configuration에 설정해주는 역할
 
-<img src="img/GenericOptionsParser의%20Option.png" width = "300"></img>  
+<img src="../img/GenericOptionsParser의%20Option.png" width = "300"></img>  
 
 <span style="color:#ffd33d"> conf   </span>  
     - configuration file을 전달해서 configuration을 설정하는 옵션  

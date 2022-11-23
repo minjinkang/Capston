@@ -1,7 +1,7 @@
 # YARN
 - Yet Another Resource Negotiator : "또 다른 리소스 협상가"
 - MapReduce 1의 문제점을 해결하기위해 등장  
-<img src="img/Mapreduce1문제점.png" width="600" height="">  
+<img src="../img/Mapreduce1문제점.png" width="600" height="">  
 <span style="color:#ffdce0">*JobTracker=MasterNode, TaskTracker=WorkerNode*</span>  
 <span style="color:#ffdce0">*JobTracker의 역할이 과중되어있다.*</span>  
 
@@ -13,12 +13,12 @@
 - 다양한 워크로드 지원
 - 클러스터 이용률 개선
 - 기존 맵리듀스 호환성 지원  
-<img src="img/yarn의%20등장.png" width="600" height="">  
+<img src="../img/yarn의%20등장.png" width="600" height="">  
 <span style="color:#ffdce0">*Mapreduce 외에 다른 프로그램 사용가능*</span>  
 
 >## YARN Architecture
 ---  
-<img src="img/yarnArchitecture.png" width="600" height="">  
+<img src="../img/yarnArchitecture.png" width="600" height="">  
 
 - <span style="color: #ffd33d"> ResourceManager</span>
     - 모든 클러스터 리소스를 중재하는 마스터
@@ -42,7 +42,7 @@ Slot|Container
 
 >## YARN 동작 방식  
 ---
-<img src="img/yarn%20동작방식.png" width="600" height="">  
+<img src="../img/yarn%20동작방식.png" width="600" height="">  
 
 1. 클라이언트로부터 JobApplication의 제출이 요청됨
 2. ResourceManager의 ApplicationManager가 받아서 최초의 ApplicationMaster를 위한 컨테이너 할당을 요청한다.

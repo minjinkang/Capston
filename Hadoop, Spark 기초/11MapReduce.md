@@ -12,7 +12,7 @@
 
 > MapReduce 처리과정 
 
-<img src="img/Mapreduce처리과정.png" width="500" height="">  
+<img src="../img/Mapreduce처리과정.png" width="500" height="">  
 
 <span style="color:blueviolet"> 1. 파일로부터 Input을 입력받는다.  </span>   
 <span style="color:blueviolet"> 2. 입력파일들이 Split되어서 Map함수에 전달된다.  </span>   
@@ -22,17 +22,17 @@
 
 
 ---
-<img src="img/Mapreduce처리과정자세.png" width="600" height="">  
+<img src="../img/Mapreduce처리과정자세.png" width="600" height="">  
 
 <span style="color:#ffdce0">*Combiner : Map의 결과를 기준으로 Reducer에 전달하기전에 미리 Map의 Output을 처리하는 방법을 제공해준다. shuffle하는 데이터의 양을 줄일 수 있다.*</span> == Local Reducer  
 
     InputFormat
-<img src="img/InputFormatjava.png" width="500" height="300">
+<img src="../img/InputFormatjava.png" width="500" height="300">
 
 입력 파일이 분할 되는 방식(InputSplit), 읽는 방식(RecordReader)  
 
     InputSplit
-<img src="img/InputSplitjava.png" width="500" height="300">
+<img src="../img/InputSplitjava.png" width="500" height="300">
 
 맵의 입력으로 들어가는 데이터를 분할하는 방식 정의  
 데이터의 위치와 읽어들이는 데이터의 길이를 정의하고 있다.
@@ -41,12 +41,12 @@
 Split으로부터 데이터를 실제로 읽어들이는 역할 = 반복자  
 
     Mapper  
-<img src="img/InputSplitjava.png" width="500" height="300">
+<img src="../img/InputSplitjava.png" width="500" height="300">
 
 실제로 사용자가 구현한 비즈니스로직이 처리되는 곳
 
     Partitioner  
-<img src="img/InputSplitjava.png" width="500" height="300">
+<img src="../img/InputSplitjava.png" width="500" height="300">
 
 같은 키를 갖는 데이터는 물리적으로 동일한 Reducer로 전달해준다.  
 
@@ -54,14 +54,14 @@ Split으로부터 데이터를 실제로 읽어들이는 역할 = 반복자
 전달받은 키를 기준으로 정렬을 수행하여  Reducer로 전달한다.
 
     Reducer
-<img src="img/Reducerjava.png" width="500" height="300">
+<img src="../img/Reducerjava.png" width="500" height="300">
 
 키 별로 정렬된 데이터를 가지고 사용자가 정의한 작업을 수행한다.<br>
 <br>
 
 > MapReduce 작동방식
 
-<img src="img/MapreduceJob실행분석.png" width="500" height="300">  
+<img src="../img/MapreduceJob실행분석.png" width="500" height="300">  
 
 <span style="color:blueviolet">1. Job 제출 </span>
 
@@ -88,7 +88,7 @@ Split으로부터 데이터를 실제로 읽어들이는 역할 = 반복자
 
 <span style="color:blueviolet"> 5. 진행상황과 업데이트  </span> 
 
-<img src="img/Mapreduce진행상황과%20업데이트.png" width="500" height="300">
+<img src="../img/Mapreduce진행상황과%20업데이트.png" width="500" height="300">
 
 - Map과 ReduceTask를 실행하게 되면서 ApplicationMaster와 밀접한 인터페이스를 통해 계속 통신한다.
 

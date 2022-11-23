@@ -4,14 +4,14 @@ cd sbin
 start-dfs.cmd  
 start-yarn.cmd  
 
-<img src="img/namenode,datanode%20실행.png" width="500" height="250">
+<img src="../img/namenode,datanode%20실행.png" width="500" height="250">
 
 
-<img src="img/resource,nodemanager%20실행.png" height="250">
+<img src="../img/resource,nodemanager%20실행.png" height="250">
 
-<img src="img/하둡클러스터%20동작중%20확인2.png" height="250">
+<img src="../img/하둡클러스터%20동작중%20확인2.png" height="250">
 
-<img src="img/하둡클러스터%20동작중%20확인.png" height="250">
+<img src="../img/하둡클러스터%20동작중%20확인.png" height="250">
 
 # CLI (Command Line Interface) 실습
 
@@ -34,16 +34,16 @@ start-yarn.cmd
    1) hadoop fs -put LICENSE.txt /user/fastcampus/input
    2) C:\hadoop-3.3.2>hadoop fs -ls /user/fastcampus/input <span style="color: #008000">// 업로드되었는지 확인</span>
 
-<img src="img/mkdir,%20put%20,%20-ls.png" height="250">
+<img src="../img/mkdir,%20put%20,%20-ls.png" height="250">
 
 <span style="color:#ffd33d"> 3. hdfs상에 존재하는 데이터를 로컬파일시스템으로 옮겨오기 </span>
    - hadoop fs -copyToLocal /user/fastcampus/input/LICENSE.txt ./ <span style="color: #008000">//./현재 디렉토리에 가져오기</span>
 
-<img src="img/copyToLocal.png" height="250">
+<img src="../img/copyToLocal.png" height="250">
 
 <span style="color:#ffd33d"> 4. hdfs상에 업로드되어있는 파일을 볼 수 있는 역할 </span>
    - hadoop fs -cat /user/fastcampus/input/LICENSE.txt  
-<img src="img/cat.png" height="500">
+<img src="../img/cat.png" height="500">
 
 <span style="color:#ffd33d"> 5. hdfs상에 있는 파일을 이동시키기 </span>
    - hdfs fs -mv /user/fastcampus/input/LICENSE.txt /user/fastcampus
@@ -53,7 +53,7 @@ start-yarn.cmd
 
 <span style="color:#ffd33d"> 7. 파일 내용 앞부분 보기</span>
    - hadoop fs -head /C:/LICENSE.txt  
-<img src="img/head.png" width="400">
+<img src="../img/head.png" width="400">
 
 > 명령어 확인 : hadoop fs -help
 - 로컬에 있는 파일이나 디렉토리를 hdfs에 업로드 하는 역할  
