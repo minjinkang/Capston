@@ -45,7 +45,7 @@
 - 세이브 포인트 제공   
 
 # 설치  
-https://archive.apache.org/dist/flink/flink-1.9.3/
+https://archive.apache.org/dist/flink/flink-1.15.0/
 
 - 클러스터 실행 (start-cluster.bat)  
 <img src="../img/flink_클러스터구동명령.png" width="400" height=""></img>  
