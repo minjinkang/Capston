@@ -19,9 +19,22 @@
 3. java 파일생성  
 
     - ClickStreamAnalyzer.java  
-    - WebLog.java  
+<img src="../img/clickstream_clickstreamanalyzer.java1.png" width="700" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java2.png" width="600" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java3.png" width="900" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java4.png" width="800" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java5.png" width="800" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java6.png" width="700" height=""></img>  
+<img src="../img/clickstream_clickstreamanalyzer.java7.png" width="700" height=""></img>  
 
-4. kafka 클러스터 실행/ kafdrop 구동  
+
+    - WebLog.java  
+<img src="../img/clickstream_weblog.java1.png" width="800" height=""></img>  
+<img src="../img/clickstream_weblog.java2.png" width="800" height=""></img>  
+<img src="../img/clickstream_weblog.java3.png" width="800" height=""></img>  
+<img src="../img/clickstream_weblog.java4.png" width="800" height=""></img>  
+
+1. kafka 클러스터 실행/ kafdrop 구동  
     - topic 생성  
 <img src="../img/LogGenerator_topic%20생성2.png" width="200" height=""></img>
 <img src="../img/LogGenerator_topic%20생성확인.png" width="200" height=""></img>  
